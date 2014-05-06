@@ -24,6 +24,8 @@ if(isset($_POST['submit'])) {
 		mail("feomatar@list.ru","Заявка","Имя: ".$_POST['fio']."<br>Телефон: ".$_POST['phone']."<br>Email: ".$_POST['email'],"From: ".$_POST['name']." <robot@robot.ru>\r\ncontent-type:text/html; charset=windows-1251\r\n");
 		
 }
+
+phpinfo();
 ?>
 
 
