@@ -13,7 +13,7 @@
 Enter max price: <input name="askPrice"><br>
 Enter min floor: <input name="askMinFloor"><br>
 Enter max floor: <input name="askMaxFloor"><br>
-<input type="submit" name="ask" value="Найти квартиры">
+<input type="submit" name="ask" value="find">
 </form>
 
 
@@ -21,11 +21,11 @@ Enter max floor: <input name="askMaxFloor"><br>
 Enter price: <input name="addPrice"><br>
 Enter floor: <input name="addFloor"><br>
 Enter house floors: <input name="addTotalFloors"><br>
-<input type="submit" name="add" value="Добавить квартиру">
+<input type="submit" name="add" value="add">
 </form>
 
 <form method="post">
-<input type="submit" name="delete" value="Удалить все">
+<input type="submit" name="delete" value="delete all">
 </form>
 
 <?php
